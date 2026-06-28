@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buffett Investing Advisor"
+  short_description: "Buffett-style stock analysis for A-share HK US"
+  default_prompt: "Use $buffett-investing-advisor to analyze whether this stock is worth buying, holding, trimming, or selling."
