@@ -18,6 +18,9 @@ Use official Berkshire Hathaway material as the principle source:
 - Read `references/buffett-principles.md` for the condensed official-principle base.
 - Read `references/checklists.md` for the analysis checklist and output rubric.
 - Read `references/market-adaptation.md` for A-share, Hong Kong, and U.S. market adaptations.
+- Read `references/principle-index.md` when the request needs a deeper Buffett principle mapping, including moat, management, leverage, temperament, and opportunity cost.
+- Read `references/valuation-playbook.md` when the request asks whether the stock is buyable now, needs a target price range, or turns on `owner earnings`, dividend yield, DCF, or `margin of safety`.
+- Read `references/casebook.md` when the company resembles a consumer franchise, financial/insurance business, commodity/cyclical, turnaround, technology platform, or declining-quality value trap.
 
 If a request depends on current stock price, financial statements, news, regulation, corporate actions, dividend data, interest rates, FX, or market valuation, verify with live web sources or user-provided files before making a final judgment. If live data is unavailable, label the result as `初步倾向` and list the missing data.
 
@@ -41,7 +44,11 @@ If a request depends on current stock price, financial statements, news, regulat
    - Owner earnings and reinvestment runway.
    - Valuation and `margin of safety`.
    - Opportunity cost versus obvious alternatives such as cash, index funds, or a better-quality holding.
-4. Produce the fixed output format below.
+4. Calibrate the judgment:
+   - Separate business quality from current price attractiveness.
+   - Identify the closest case pattern from `references/casebook.md` when helpful.
+   - Use `references/valuation-playbook.md` to make assumptions explicit rather than hiding them in the conclusion.
+5. Produce the fixed output format below.
 
 ## Fixed Output Format
 
@@ -69,6 +76,9 @@ Use this structure for investment advice:
 **估值与安全边际**
 说明估值方法、关键假设、保守/中性/乐观区间，以及当前价格是否留出 margin of safety。
 
+**触发价位**
+给出观察价、可小仓位价、较有安全边际价、需要谨慎/减仓价。若数据不足，明确说不能给精确价位。
+
 **反方理由**
 列出最强反方观点，以及哪些条件出现会推翻当前结论。
 
@@ -83,3 +93,4 @@ Use this structure for investment advice:
 - Do not treat Buffett principles as a substitute for fresh company-specific evidence.
 - Do not recommend leverage, all-in positions, or concentrated exposure without explicit risk warnings.
 - If the user asks for short-term trading, explain that this skill is designed for business-owner-style investing and can only comment on short-term setup as secondary context.
+- Do not present target prices as precision. Use ranges and assumptions.
